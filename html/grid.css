@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    /* width: 900px; */
+    /* height: 700px; */
+     background-color: brown; 
+     background-size: cover;
+     display: grid;
+     grid-gap: 15px;
+     row-gap: 5px;
+     column-gap: 5px;
+     /* grid-template-columns: 1fr 1fr 1fr; */
+     /* grid-template-rows: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(3,auto);
+     /* justify-items: center; */
+     /* justify-items: end ;*/
+     /* justify-items: start; */
+     /* align-items: center; */
+     /* place-items: center; */
+     /* place-items: end; */
+     /* place-items: start; */
+
+
+}
+.item-1{
+    grid-column-start: 1;
+    grid-column-end: 4;  
+    
+}
+.item-2{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.item-4{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.item-6{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.item-8{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.item-10{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.item-12{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+
+.items {
+        border: 2px solid black;
+        /* width: 160px;
+        height: 100px; */
+        /* margin: 10px 15px; */
+        font-size: 16px;
+        font-weight: bolder;
+        font-family: Arial;
+        color: white;
+        background-image: linear-gradient(to top,  rgb(0, 0, 0,0.5)50% , rgb(0, 0, 0,0.5)50%),url(troopers.jpg);
+        padding: 3px 5px;
+        margin: 10px 10px;
+} 
+
+
+.container-1{
+        background-image: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%) ,url(img04.jpg);
+        background-position: center;
+        background-size: cover;
+        /* position: sticky;
+        top: 0; */
+        
+       
+}
+.logo {
+    margin: 22px 2px;
+    width: 30%;
+    
+}
+.logo img{
+    width: 60%;
+    margin-left: 25px;
+    border: 2px solid grey;
+    border-radius: 50%;
+}
+
+.list{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 70%;
+    
+}
+.list li{
+    list-style: none;
+}
+.list li a{
+    background-color: green;
+    color: ghostwhite;
+    text-transform: uppercase;
+    padding: 8px 12px;
+    text-decoration: none;
+    margin: auto 30px;
+    border: 2px solid aqua;
+    transition: .4s ease-in-out;
+}
+.list li a:hover{
+    border: none;
+    cursor: pointer;
+    color: ghostwhite;
+    background-color: black;
+}
+
+.right{
+    text-align: right; 
+    
+
+}
+.right input{
+    padding: 5px 30px;
+    border-radius: 25%;
+    margin-bottom: 10px;
+    border: 2px solid rgb(112, 47, 36);
+    font-size: 16px;
+    font-family: serif;
+}
+.right button{
+    padding: 5px 30px;
+    border-radius: 30%;
+    border: 2px solid rgb(112, 47, 36);
+}
+.right button:hover{
+    color: ghostwhite;
+    background-color: green;    
+}   
+.right input:hover{
+    color: ghostwhite;
+    background-color: green;    
+} 
+
+::placeholder{
+    color: black;
+    background-color: ghostwhite;
+}
